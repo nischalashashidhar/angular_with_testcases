@@ -1,4 +1,7 @@
 ## Customize test commands
 test:
-  pre : - npm --prefix ./client install
-  override: - karma start ./client/karma.conf.js --single-run
+  pre:
+  - npm --prefix ./client install
+  
+  override:
+  - karma start ./client/karma.conf.js --single-run
