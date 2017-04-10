@@ -1,1 +1,1 @@
-Added for Circle CI to execute npm test
+//Added for Circle CI to execute npm test
