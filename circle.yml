@@ -1,0 +1,4 @@
+## Customize test commands
+test:
+  override:
+   - karma start ./client/karma.conf.js --single-run
